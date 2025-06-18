@@ -21,3 +21,22 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# terraform
+*.tfstate
+*.tfstate.*
+crash.log
+.terraform/
+*.tfvars
+*.tfvars.json
+secrets.auto.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+*.plan
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
